@@ -75,14 +75,16 @@
   border-color: #FF0092;
 }
 
-div.EdBuilder {
-  z-index:1000;
-  background:white;
-  border:1px solid black;
+.EdBuilder-overlay,
+.StayCation-overlay,
+.BeerMe-overlay {
+  background:#fafafa;
+  width:75%;
+  max-width:800px;
+  border:1px solid gray;
   padding:1em;
-  line-height:.5em;
+  display:none;
 }
-
 
 /* Contact
 ====================== */
@@ -91,7 +93,7 @@ div.EdBuilder {
   position:relative;
 }
 
-.send-form:active{
+.send-form:active, .button:active{
   background: #FF0092;
   border-color: #FF0092;
   color:white;
