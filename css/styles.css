@@ -75,6 +75,15 @@
   border-color: #FF0092;
 }
 
+div.EdBuilder {
+  z-index:1000;
+  background:white;
+  border:1px solid black;
+  padding:1em;
+  line-height:.5em;
+}
+
+
 /* Contact
 ====================== */
 .contact{
