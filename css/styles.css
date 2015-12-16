@@ -72,7 +72,7 @@
 }
 
 .portfolio img:hover{
-  box-shadow: 0 0 10px #FF0092;
+  border-color: #FF0092;
 }
 
 /* Contact
