@@ -93,6 +93,10 @@
   position:relative;
 }
 
+.contact a{
+  text-decoration:none;
+}
+
 .send-form:active, .button:active{
   background: #FF0092;
   border-color: #FF0092;
@@ -121,7 +125,7 @@ textarea:focus{
   border-color:#FF0092;
 }
 
-/* Contact
+/* Footer
 ====================== */
 .footer {
   color:gray;
