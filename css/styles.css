@@ -135,12 +135,3 @@ textarea:focus{
 
 /* Media Queries
 ====================== */
-@media (max-width:768px){
-  .about-img{
-    padding-top:0;
-  }
-
-  .portfolio-row-2{
-    margin-top:0em;
-  }
-}
