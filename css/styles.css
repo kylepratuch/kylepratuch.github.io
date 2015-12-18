@@ -64,6 +64,7 @@
 
 .portfolio img:hover{
   border-color: #FF0092;
+  box-shadow: 1px 1px 2px #FF0092;
 }
 
 .EdBuilder-overlay,
