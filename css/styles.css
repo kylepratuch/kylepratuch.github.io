@@ -21,28 +21,6 @@
   margin-bottom:2em;
 }
 
-/* Nav Chevrons
-====================== */
-.chevron-top{
-  width:100%;
-  text-align:center;
-}
-
-.chevron-top img{
-  width:4em;
-}
-
-.chevron-bottom{
-  width:100%;
-  text-align:center;
-  position:absolute; /* Relative to wrapping div eg. "about" */
-  bottom:0;
-}
-
-.chevron-bottom img{
-  width:4em;
-}
-
 /* About
 ====================== */
 .about{
@@ -53,10 +31,22 @@
 .about-img img{
   width:100%;
   border:1px solid darkgray;
+  box-shadow: 1px 1px 2px darkgray;
+
 }
 
 .about-img{
   padding-top:4.5em;
+}
+
+.about a,
+.StayCation-overlay a:nth-child(1){
+  text-decoration:none;
+  color:#FF0092;
+}
+
+.about a:hover{
+  text-decoration:underline;
 }
 
 /* Portfolio
@@ -69,6 +59,7 @@
 .portfolio img{
   width:100%;
   border:1px solid darkgray;
+  box-shadow: 1px 1px 2px darkgray;
 }
 
 .portfolio img:hover{
